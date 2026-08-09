@@ -26,6 +26,15 @@
             ]
           },
           {
+            "group": "Workflows",
+            "pages": [
+              "workflows/onboarding-your-company",
+              "workflows/onboarding-a-new-person",
+              "workflows/the-weekly-loop",
+              "workflows/quarterly-rollover"
+            ]
+          },
+          {
             "group": "Your Dashboard",
             "pages": [
               "dashboard/personal-dashboard",
@@ -90,15 +99,6 @@
               "admin/starting-a-new-cycle",
               "admin/email-templates",
               "admin/visibility-controls"
-            ]
-          },
-          {
-            "group": "Workflows",
-            "pages": [
-              "workflows/onboarding-your-company",
-              "workflows/onboarding-a-new-person",
-              "workflows/the-weekly-loop",
-              "workflows/quarterly-rollover"
             ]
           },
           {
