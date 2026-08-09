@@ -1,0 +1,35 @@
+---
+title: "Roles and permissions"
+sidebarTitle: "Roles & permissions"
+description: "Who can do what in CTRL: Members, managers (derived), Owners, and the CEO flag."
+---
+
+CTRL keeps roles deliberately simple: two assignable roles, plus positions derived from reporting lines.
+
+## The two roles
+
+- **Owner** — holds every company permission: admin pages, company objectives, teams, people, invitations, and cycles. The founding owner can't be demoted or removed.
+- **Member** — the default for everyone invited. No admin permissions.
+
+Change a person's role in **Admin → People**. Invitations always create Members; promote to Owner afterwards if needed.
+
+## Derived positions (not settings)
+
+- **Manager** — anyone with at least one direct report. Grants the Team Dashboard, access to reports' check-ins, and the pen on their OKRs.
+- **Top level** — someone with no manager. Self-serves their own OKRs.
+- **CEO** — a per-company flag with special dashboard behaviour. See [The CEO flag](/admin/ceo-flag).
+
+## The capability matrix
+
+| Capability | Member | Manager | Owner |
+| --- | --- | --- | --- |
+| Own dashboard, check-in, OKR view | ✅ | ✅ | ✅ |
+| Create/edit own OKRs | Only if no manager | Only if no manager | Only if no manager |
+| Set OKRs for direct reports | — | ✅ | ✅ (anyone) |
+| Team Dashboard & reports' check-ins | — | ✅ | ✅ (all) |
+| Company Dashboard & company objectives | — | — | ✅ |
+| Admin: Teams, People, Cycle, Settings | — | — | ✅ |
+
+<Note>
+  What colleagues can _see_ of each other's OKRs on the Company page is a separate per-person setting — see [Visibility controls](/admin/visibility-controls).
+</Note>

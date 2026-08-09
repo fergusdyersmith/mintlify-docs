@@ -1,0 +1,29 @@
+---
+title: "Importing people from a spreadsheet"
+sidebarTitle: "Importing people"
+description: "Bulk-invite your whole company: download the template, upload it, review the preview, and send the invitations."
+---
+
+Setting up a whole company? **Import people** on **Admin → People** invites everyone in one pass.
+
+<Steps>
+  <Step title="Download the template">
+    Click **Import people** → **Download the template**. Columns: **Name, Email, Job title, Team, Manager email**.
+  </Step>
+  <Step title="Fill it in">
+    One row per person. **Manager email** builds the reporting lines — reference each manager by the email you're inviting them with. Team names that don't exist yet will be flagged in the preview.
+  </Step>
+  <Step title="Upload and review the preview">
+    Every row gets a **Status** — ok, warning, or error — with **Notes** explaining issues: duplicates of existing members, unknown teams, or manager emails that don't resolve. Fix the spreadsheet and re-upload if needed; warnings can proceed, errors can't.
+  </Step>
+  <Step title="Invite">
+    Click **Invite N people**, then confirm (_"Send N invitations?"_). As the dialog says: **you can't undo sending invitations** — each person gets a one-click email immediately.
+  </Step>
+</Steps>
+
+## Tips for a clean import
+
+- Invite in **one file** rather than batches — manager references resolve best when everyone's in the same import.
+- Create [teams](/admin/teams) first if you want them exactly named, or let the import flag unknowns.
+- After sending, watch **Pending invitations** — invitations expire after 7 days, so chase stragglers within the week.
+- Role profiles can't be bulk-imported — add role summaries or CVs per person afterwards. See [Role profiles](/managers/role-profiles).

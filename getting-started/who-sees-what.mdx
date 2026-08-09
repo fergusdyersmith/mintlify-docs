@@ -1,0 +1,73 @@
+---
+title: "Who sees what in CTRL"
+sidebarTitle: "Who sees what"
+description: "How the app changes depending on who you are: Member, Manager, Owner, CEO — and why a team Lead is not a Manager."
+---
+
+CTRL shows different people different screens. What appears in your sidebar isn't a preference — it's derived from two things: your **role** (Member or Owner, set by an admin) and your **reporting lines** (whether anyone reports to you). This page walks through each view.
+
+## The views at a glance
+
+| What you see | Member | Member \+ Manager | Owner | Owner \+ Manager |
+| --- | --- | --- | --- | --- |
+| **Personal Dashboard** (own OKRs & check-in) | ✅ | ✅ | ✅ | ✅ |
+| **Company** page (directory & company objectives) | ✅ | ✅ | ✅\* | ✅\* |
+| **Team Dashboard** | — | ✅ | — | ✅ |
+| **Company Dashboard** | — | — | ✅ | ✅ |
+| **Admin** group (Teams, People, OKR Cycle, Settings) | — | — | ✅ | ✅ |
+
+\* Owners reach the people directory through **Admin → People** instead of the sidebar's Company entry.
+
+## Member (no direct reports)
+
+The simplest view. The sidebar has the **Personal Dashboard** and the **Company** page, plus notifications and settings. A member sees their own OKRs and check-ins in full, and as much of their _colleagues'_ OKRs as the company's [visibility controls](/admin/visibility-controls) allow. Their OKRs are set by their manager — the dashboard says _"Your manager will set your OKRs for this cycle."_<br />
+
+<Frame>
+  ![Image](/images/image.png "Image")
+</Frame>
+
+## Manager (anyone with direct reports)
+
+"Manager" is not a role you're granted — the moment at least one person reports to you, a **Team Dashboard** appears in your sidebar. On top of the member view, a manager sees their reports' check-ins (moods, blockers, notes), their [member profiles](/managers/member-profiles), and holds the pen on their OKRs. A manager is still a **Member** by role — no admin pages.<br />
+
+<Frame>
+  ![Image](/images/image-1.png "Image")
+</Frame>
+
+## Owner
+
+Owners get two extra areas: the **Company Dashboard** (cycle pace, check-in completion, blockers, mood, AI themes) and the **Admin** group — Teams, People, OKR Cycle, and Settings. Owners can see every check-in and manage every person's OKRs, whether or not anyone reports to them directly. An owner who _also_ has direct reports gets the Team Dashboard too — the views stack.
+
+<Frame>
+  ![Image](/images/image-2.png "Image")
+</Frame>
+
+## The CEO
+
+One person per company can carry the [CEO flag](/admin/ceo-flag). Their Personal Dashboard gains a read-only **Company objectives** block and their own section is relabelled **My exec OKRs**. The flag changes what their dashboard shows — not what they're allowed to do.
+
+<Frame>
+  <img
+    src="/images/image-3.png"
+    alt="Image"
+    title="Image"
+    style={{ width:"86%" }}
+  />
+</Frame>
+
+## Manager vs team Lead — not the same thing
+
+This is the most common point of confusion in CTRL:
+
+- A **Manager** comes from **reporting lines** ("Manager" on each person in **Admin → People**). It's what grants real capability: the Team Dashboard, reading reports' check-ins, and setting their OKRs.
+- A team **Lead** is a **badge on the team card** in **Admin → Teams**. As the app itself puts it: _"Lead is an optional cosmetic badge."_ It grants **no permissions and no views**.
+
+<Frame>
+  ![Image](/images/image-4.png "Image")
+</Frame>
+
+So if someone "runs a team" but can't see a Team Dashboard, the fix is to make people **report to them**, not to mark them Lead. See [Managing teams](/admin/teams) and [The org chart](/admin/org-chart).
+
+<Note>
+  Full capability detail lives in [Roles and permissions](/admin/roles-and-permissions); this page is about what each person _sees_.
+</Note>

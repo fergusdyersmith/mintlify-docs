@@ -1,0 +1,69 @@
+{
+  "projectType": "saas",
+  "projectName": "CTRL by People Station",
+  "projectDescription": "CTRL is a performance management platform that turns weekly check-ins, OKR progress, and team sentiment into one clear picture for leaders and managers.",
+  "theme": "almond",
+  "primaryColor": "#fc2c24",
+  "lightColor": null,
+  "darkColor": null,
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "getting-started/account-setup",
+              "getting-started/inviting-your-team"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/weekly-check-ins",
+              "features/okrs",
+              "features/team-sentiment",
+              "features/dashboards"
+            ]
+          },
+          {
+            "group": "For Managers",
+            "pages": [
+              "managers/overview",
+              "managers/reviewing-check-ins",
+              "managers/tracking-okrs",
+              "managers/team-health"
+            ]
+          },
+          {
+            "group": "For Leaders",
+            "pages": [
+              "leaders/overview",
+              "leaders/org-wide-reporting",
+              "leaders/goal-alignment"
+            ]
+          },
+          {
+            "group": "Account & Settings",
+            "pages": [
+              "settings/profile",
+              "settings/notifications",
+              "settings/integrations"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Weekly check-ins (2-minute format)",
+    "OKR setup and progress tracking (3× faster setup)",
+    "Team sentiment monitoring",
+    "Unified leadership dashboard",
+    "87% adoption rate design",
+    "SSO sign-in via Google, Microsoft, GitHub, and Apple"
+  ],
+  "publicApiSurface": []
+}

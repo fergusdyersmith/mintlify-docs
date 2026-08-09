@@ -1,0 +1,30 @@
+---
+title: "How progress is calculated"
+sidebarTitle: "Progress calculation"
+description: "The maths behind every progress bar in CTRL, from a single key result up to the whole company."
+---
+
+Every progress number in CTRL is built the same way, bottom-up.
+
+## Key result progress
+
+- **Percent** and **Scale 1–10** types: `current value ÷ target`, capped between 0% and 100%.
+- **Status** type: **Done** = 100%, **On track** = 50%, **At risk** / **Off track** = 0%.
+
+## Objective progress
+
+The **average of its key results'** progress. All key results weigh equally.
+
+## Person, team, and company progress
+
+- A **person's** progress averages across the key results of their OKRs.
+- A **team's** progress aggregates its members' OKRs — there are no separate team-level OKRs.
+- **Company** roll-ups (the Company Dashboard's _avg OKR progress_ and per-team bars) aggregate everyone the same way.
+
+## Pace: progress vs time
+
+Dashboards often show progress against **how much of the cycle has elapsed**. The Company Dashboard's **Pace** stat compares average OKR progress with cycle elapsed — ahead of pace (\+) or behind (−) — and progress bars carry a "today" marker at the on-pace point.
+
+<Note>
+  Progress only moves when check-ins are submitted — a stale-looking objective usually means missed check-ins, not stalled work. See [Updating key results](/check-ins/updating-key-results).
+</Note>

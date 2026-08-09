@@ -1,0 +1,122 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "PlatformCTRL",
+  "theme": "almond",
+  "favicon": {
+    "light": "/images/platform-ctrl-favicon.png",
+    "dark": "/images/platform-ctrl-favicon.png"
+  },
+  "colors": {
+    "primary": "#9d14ee"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "getting-started/signing-in",
+              "getting-started/accepting-an-invitation",
+              "getting-started/key-concepts",
+              "getting-started/who-sees-what",
+              "getting-started/your-first-week"
+            ]
+          },
+          {
+            "group": "Your Dashboard",
+            "pages": [
+              "dashboard/personal-dashboard",
+              "dashboard/company-page",
+              "dashboard/notifications"
+            ]
+          },
+          {
+            "group": "Weekly Check-ins",
+            "pages": [
+              "check-ins/overview",
+              "check-ins/submitting",
+              "check-ins/updating-key-results",
+              "check-ins/reporting-blockers",
+              "check-ins/mood",
+              "check-ins/notes",
+              "check-ins/schedule",
+              "check-ins/reminders",
+              "check-ins/viewing-past-check-ins"
+            ]
+          },
+          {
+            "group": "OKRs",
+            "pages": [
+              "okrs/overview",
+              "okrs/creating-an-okr",
+              "okrs/key-result-types",
+              "okrs/statuses",
+              "okrs/progress-calculation",
+              "okrs/editing-and-deleting",
+              "okrs/ai-suggestions",
+              "okrs/who-sets-okrs"
+            ]
+          },
+          {
+            "group": "For Managers",
+            "pages": [
+              "managers/overview",
+              "managers/team-dashboard",
+              "managers/adding-team-members",
+              "managers/member-profiles",
+              "managers/role-profiles",
+              "managers/reviewing-check-ins",
+              "managers/setting-team-okrs"
+            ]
+          },
+          {
+            "group": "For Owners & Admins",
+            "pages": [
+              "admin/overview",
+              "admin/company-dashboard",
+              "admin/company-objectives",
+              "admin/ai-insights",
+              "admin/teams",
+              "admin/people",
+              "admin/org-chart",
+              "admin/inviting-people",
+              "admin/importing-people",
+              "admin/roles-and-permissions",
+              "admin/ceo-flag",
+              "admin/cycle-settings",
+              "admin/starting-a-new-cycle",
+              "admin/email-templates",
+              "admin/visibility-controls"
+            ]
+          },
+          {
+            "group": "Workflows",
+            "pages": [
+              "workflows/onboarding-your-company",
+              "workflows/onboarding-a-new-person",
+              "workflows/the-weekly-loop",
+              "workflows/quarterly-rollover"
+            ]
+          },
+          {
+            "group": "Account & Settings",
+            "pages": [
+              "settings/profile",
+              "settings/role-profile",
+              "settings/notifications",
+              "settings/appearance",
+              "settings/switching-companies"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/images/platform-ctrl-white.png",
+    "dark": "/images/platform-ctrl-white.png"
+  }
+}
